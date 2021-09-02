@@ -1,15 +1,15 @@
-.section-3 {
+.work {
   margin-bottom: 94px;
 }
-.photo-a {
+.work__card-link {
   display: block;
 }
-.photo-a:hover .overlay {
+.work__card-link:hover .work__card-overlay {
   opacity: 1;
   transform: translateY(0);
   transition: 0;
 }
-.div-card {
+.work__card-img {
   position: relative;
   overflow: hidden;
 }
@@ -25,7 +25,7 @@
 
   color: #ffffff;
 }
-.overlay {
+.work__card-overlay {
   position: absolute;
 
   width: 100%;
@@ -47,12 +47,12 @@
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
 }
-.photo-a:focus,
-.photo-a:hover {
+.work__card-link:focus,
+.work__card-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.photo-a {
+.work__card-link {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .div-photo {
@@ -80,13 +80,13 @@
   letter-spacing: 0.06em;
   color: #212121;
 }
-.photo-list {
+.work__card-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
-.photo-item {
+.work__card {
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
