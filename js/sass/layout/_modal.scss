@@ -1,4 +1,4 @@
-.beckdrop {
+.modal__beckdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,7 +6,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.beckdrop.is-hidden {
+.modal__beckdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -22,7 +22,7 @@
   padding: 40px;
   background-color: #fff;
 }
-.modal-form-head {
+.modal__form-feedback {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -34,15 +34,15 @@
 
   color: #212121;
 }
-.svg-close {
+.modal__btn-close-svg {
   width: 11px;
   height: 11px;
   fill: #000000;
 }
-.svg-close:hover {
+.modal__btn-close-svg:hover {
   fill: var(--accent-color);
 }
-.modal-btn-svg {
+.modal__btn-close {
   position: absolute;
   cursor: pointer;
   top: 8px;
@@ -54,7 +54,7 @@
   background-color: transparent;
   padding: 0;
 }
-.svg-modal {
+.modal__form-label-svg {
   position: absolute;
   display: block;
   top: 50%;
@@ -64,11 +64,11 @@
   height: 15px;
   outline: none;
 }
-.modal-form {
+.modal__form {
   display: flex;
   flex-direction: column;
 }
-.modal-form-input {
+.modal__form-input {
   width: 100%;
   height: 40px;
   padding-left: 40px;
@@ -78,18 +78,18 @@
   outline: none;
   cursor: pointer;
 }
-.modal-form-input:focus {
+.modal__form-input:focus {
   border-color: var(--accent-color);
 }
-.modal-form-input:focus + .svg-modal {
+.modal__form-input:focus + .modal__form-label-svg {
   fill: var(--accent-color);
 }
-.modal-form-input-wrapper {
+.modal__form-input-wrapper {
   position: relative;
   display: block;
   margin-bottom: 10px;
 }
-.modal-form-mesage {
+.modal__form-mesage {
   width: 100%;
   height: 120px;
   margin-top: 4px;
@@ -100,13 +100,13 @@
   padding: 12px 16px;
   cursor: pointer;
 }
-.modal-form-mesage:focus {
+.modal__form-mesage:focus {
   border-color: var(--accent-color);
 }
-.modal-form-mesage::placeholder {
+.modal__form-mesage::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-form-btn {
+.modal__form-btn {
   align-self: center;
   font-family: var(--main-font);
   font-weight: bold;
@@ -130,7 +130,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.modal-form-checkbox-policy {
+.modal__form-checkbox-policy {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +149,7 @@
 
   color: #757575;
 }
-.span-modal {
+.modal__span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,33 +160,33 @@
 
   margin-right: 10px;
 }
-.modal-form-checkbox {
+.modal__form-checkbox {
   position: relative;
 }
-.modal-form-checkbox:checked + .span-modal {
+.modal__form-checkbox:checked + .modal__span {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
-.modal-form-policy-link {
+.modal__form-policy-link {
   margin-left: 2px;
 
   color: var(--accent-color);
 }
 
-.modal-form__svg {
+.modal__form-svg {
   position: absolute;
   width: 11px;
   height: 8px;
 }
-.div-footer-mail {
+.footer__container-mail {
   margin-left: 93px;
 }
-.div-ml {
+.footer__mail {
   display: flex;
   margin-top: 20px;
   height: 50px;
 }
-.mail-footer-h3 {
+.footer__h3 {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
@@ -197,7 +197,7 @@
   color: #ffffff;
 }
 
-.mail-footer-input {
+.footer__mail-input {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
@@ -215,7 +215,7 @@
   margin-right: 12px;
   padding-left: 16px;
 }
-.mail-footer-btn {
+.footer__mail-btn {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
@@ -234,14 +234,14 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.svg-icon-send {
+.footer__mail-svg-send {
   margin-left: 10px;
   width: 24px;
   height: 24px;
   fill: #ffffff;
 }
 
-.label-form {
+.modal__form-label {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;

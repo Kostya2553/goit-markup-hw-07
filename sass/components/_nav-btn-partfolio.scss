@@ -19,12 +19,14 @@
   padding-left: 22px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-list:hover,
-.btn-list:focus {
+  
+&:hover,
+&:focus {
   color: #ffffff;
   background: var(--accent-color);
 }
+}
+
 .nav-btn-list {
   display: flex;
   justify-content: center;

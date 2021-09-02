@@ -1,4 +1,4 @@
-.h2-klient {
+.klient__h2 {
   text-align: center;
   font-family: var(--main-font);
   font-weight: bold;
@@ -11,18 +11,18 @@
   padding-top: 94px;
   padding-bottom: 50px;
 }
-.ul-klient {
+.klient__ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 94px;
 }
-.svg-klient {
+.klient__svg {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.a-klient {
+.klient__a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,13 +33,13 @@
   border: 1px solid #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.a-klient:hover,
-.a-klient:focus {
+.klient__a:hover,
+.klient__a:focus {
   fill: var(--accent-color);
   border: 1px solid #2196f3;
 }
 
-.a-klient:hover .svg-klient,
-.a-klient:focus .svg-klient {
+.klient__a:hover .klient__svg,
+.klient__a:focus .klient__svg {
   fill: var(--accent-color);
 }

@@ -1,4 +1,4 @@
-.logo-footer {
+.footer__logo {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 26px;
@@ -9,7 +9,7 @@
   margin-bottom: 20px;
 }
 
-.contact-footer-adres {
+.footer__li-adres {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
@@ -24,7 +24,7 @@
   }
 }
 
-.contact-footer {
+.footer__li-link {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
@@ -39,29 +39,29 @@
   }
 }
 
-.beck-footer {
+.footer {
   background: #2f303a;
 
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.div-foot {
+.footer__container {
   display: flex;
 }
-.div-footer2 {
+.footer__subs {
   margin-left: 70px;
 }
-.footer-li {
+.footer__li {
   margin-bottom: 9px;
 }
-.footer-ul-svg {
+.footer__social {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 20px;
 }
 
-.footer-h2 {
+.footer__h2 {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
@@ -71,7 +71,7 @@
 
   color: #ffffff;
 }
-.footer-svg-a {
+.footer__social-a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,12 +91,12 @@
   }
 }
 
-.svg-icon-footer {
+.footer__social-svg {
   width: 20px;
   height: 20px;
   fill: #ffffff;
-  .footer-svg-a:hover &,
-  .footer-svg-a:focus & {
+  .footer__social-a:hover &,
+  .footer__social-a:focus & {
     fill: #ffffff;
   }
 }

@@ -1,14 +1,14 @@
-.header-container__div {
+.header__div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
 }
-.header-container__nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
-.menu {
+.header__menu {
   display: flex;
   align-items: center;
 }
@@ -21,33 +21,18 @@
   letter-spacing: 0.03em;
   color: #212121;
   margin-right: 90px;
+  &__web {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 0.83;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
 }
-.logo-web {
-  font-family: var(--secondary-font);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 0.83;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-.contact-list {
-  display: flex;
-  align-items: center;
-}
-.menu-link-l {
-  position: relative;
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
-  transition: 250ms var(--cubic-bezier);
-  padding-bottom: 30px;
-  margin-right: 50px;
-}
-.menu-link {
+
+.header__menu-link {
   position: relative;
   font-family: var(--main-font);
   font-weight: 500;
@@ -79,7 +64,18 @@
     opacity: 1;
   }
 }
-.menu-link-l {
+.header__menu-link-l {
+  position: relative;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  transition: 250ms var(--cubic-bezier);
+  padding-bottom: 30px;
+  margin-right: 50px;
+
   &::after {
     display: block;
     content: '';
@@ -96,8 +92,11 @@
     opacity: 1;
   }
 }
-
-.contact-link-adres {
+.header__contact-list {
+  display: flex;
+  align-items: center;
+}
+.header__link-adres {
   display: flex;
   align-items: center;
   font-family: var(--main-font);
@@ -114,18 +113,18 @@
   }
 }
 
-.svg-mail {
+.svg__mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: #757575;
-  &:hover .svg-mail,
-  &:focus .svg-mail {
+  &:hover .svg__mail,
+  &:focus .svg__mail {
     fill: var(--accent-color);
   }
 }
 
-.contact-link-num {
+.header__link-num {
   display: flex;
   align-items: center;
   font-family: var(--main-font);
@@ -141,13 +140,13 @@
   }
 }
 
-.svg-phone {
+.svg__phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: #757575;
-  .contact-link-num:hover &,
-  .contact-link-num:focus & {
+  .header__link-num:hover &,
+  .header__link-num:focus & {
     fill: var(--accent-color);
   }
 }

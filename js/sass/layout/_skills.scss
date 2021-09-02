@@ -1,8 +1,8 @@
-.svg-exp-list {
+.skills__svg {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.div-exp {
+.skills__list-div {
   height: 120px;
   width: 270px;
   display: flex;
@@ -12,7 +12,7 @@
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.head-lines {
+.skills__head-lines {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
@@ -23,11 +23,11 @@
   display: flex;
   margin-right: 30px;
 }
-.explanation {
+.skills {
   padding-top: 94px;
 }
 
-.head-explanation {
+.skills__head-skills {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
@@ -40,13 +40,13 @@
   margin-right: 30px;
   margin-top: 10px;
 }
-.explanation-list {
+.skills__container {
   align-items: center;
   display: flex;
   background: #ffffff;
 }
 
-.about2-list {
+.skills__list {
   align-items: center;
   display: flex;
   margin-left: 30px;

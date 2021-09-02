@@ -7,14 +7,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.div-do-list {
+.do__container {
   background: #ffffff;
 }
-.team-do-list {
+.do__list {
   position: relative;
   padding-right: 15px;
 }
-.overlay-do {
+.do__overlay {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
