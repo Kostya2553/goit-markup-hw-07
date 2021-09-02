@@ -4,11 +4,7 @@
 .photo-a {
   display: block;
 }
-.photo-a:hover .overlay {
-  opacity: 1;
-  transform: translateY(0);
-  transition: 0;
-}
+
 .div-card {
   position: relative;
   overflow: hidden;
@@ -46,14 +42,20 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
+  .photo-a:hover & {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0;
+  }
 }
-.photo-a:focus,
-.photo-a:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .photo-a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 .div-photo {
   padding-top: 20px;

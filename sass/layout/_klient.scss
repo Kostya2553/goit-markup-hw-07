@@ -21,6 +21,10 @@
   height: 60px;
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .a-klient:hover &,
+  .a-klient:focus & {
+    fill: var(--accent-color);
+  }
 }
 .a-klient {
   display: flex;
@@ -32,14 +36,9 @@
   border-radius: 4px;
   border: 1px solid #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.a-klient:hover,
-.a-klient:focus {
-  fill: var(--accent-color);
-  border: 1px solid #2196f3;
-}
-
-.a-klient:hover .svg-klient,
-.a-klient:focus .svg-klient {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border: 1px solid #2196f3;
+  }
 }

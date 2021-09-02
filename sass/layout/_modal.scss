@@ -38,10 +38,12 @@
   width: 11px;
   height: 11px;
   fill: #000000;
+
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
-.svg-close:hover {
-  fill: var(--accent-color);
-}
+
 .modal-btn-svg {
   position: absolute;
   cursor: pointer;
@@ -63,6 +65,9 @@
   width: 15px;
   height: 15px;
   outline: none;
+  .modal-form-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
 .modal-form {
   display: flex;
@@ -77,13 +82,12 @@
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
-.modal-form-input:focus {
-  border-color: var(--accent-color);
-}
-.modal-form-input:focus + .svg-modal {
-  fill: var(--accent-color);
-}
+
 .modal-form-input-wrapper {
   position: relative;
   display: block;
@@ -99,13 +103,15 @@
   resize: none;
   padding: 12px 16px;
   cursor: pointer;
+
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
-.modal-form-mesage:focus {
-  border-color: var(--accent-color);
-}
-.modal-form-mesage::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
+
 .modal-form-btn {
   align-self: center;
   font-family: var(--main-font);
@@ -159,14 +165,16 @@
   border-radius: 4px;
 
   margin-right: 10px;
+
+  .modal-form-checkbox:checked + & {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 .modal-form-checkbox {
   position: relative;
 }
-.modal-form-checkbox:checked + .span-modal {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-}
+
 .modal-form-policy-link {
   margin-left: 2px;
 
