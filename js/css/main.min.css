@@ -513,7 +513,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.do-list {
+.do__ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

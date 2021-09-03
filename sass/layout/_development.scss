@@ -1,17 +1,14 @@
 .do {
   padding-top: 94px;
   padding-bottom: 94px;
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
 }
-
 .do__container {
   background: #ffffff;
 }
 .do__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   position: relative;
   padding-right: 15px;
 }

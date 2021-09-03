@@ -94,8 +94,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.work__nav-btn:hover,
-.work__nav-btn:focus {
+.work__nav-btn:hover, .work__nav-btn:focus {
   color: #ffffff;
   background: var(--accent-color);
 }
@@ -182,8 +181,7 @@ img {
   margin-right: 50px;
 }
 
-.header__menu-link:hover,
-.header__menu-link:focus {
+.header__menu-link:hover, .header__menu-link:focus {
   color: var(--accent-color);
 }
 
@@ -253,8 +251,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__link-adres:hover,
-.header__link-adres:focus {
+.header__link-adres:hover, .header__link-adres:focus {
   color: var(--accent-color);
 }
 
@@ -282,8 +279,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__link-num:hover,
-.header__link-num:focus {
+.header__link-num:hover, .header__link-num:focus {
   color: var(--accent-color);
 }
 
@@ -321,8 +317,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__li-adres:hover,
-.footer__li-adres:focus {
+.footer__li-adres:hover, .footer__li-adres:focus {
   color: var(--accent-color);
 }
 
@@ -337,8 +332,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__li-link:hover,
-.footer__li-link:focus {
+.footer__li-link:hover, .footer__li-link:focus {
   color: var(--accent-color);
 }
 
@@ -392,8 +386,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__social-a:focus,
-.footer__social-a:hover {
+.footer__social-a:focus, .footer__social-a:hover {
   background-color: #2196f3;
 }
 
@@ -433,8 +426,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/index/hero/bg.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/index/hero/bg.jpg);
 }
 
 .skills__svg {
@@ -500,17 +492,14 @@ img {
   padding-bottom: 94px;
 }
 
-.do__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .do__container {
   background: #ffffff;
 }
 
 .do__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   position: relative;
   padding-right: 15px;
 }
@@ -544,8 +533,7 @@ img {
 .team__li {
   margin-left: 30px;
   margin-top: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
@@ -616,8 +604,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__list:hover,
-.social__list:focus {
+.social__list:hover, .social__list:focus {
   background-color: #2196f3;
 }
 
@@ -664,8 +651,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.klient__a:hover,
-.klient__a:focus {
+.klient__a:hover, .klient__a:focus {
   fill: var(--accent-color);
   border: 1px solid #2196f3;
 }
@@ -957,7 +943,7 @@ img {
   color: #ffffff;
 }
 
-.overlay {
+.work__card-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -978,7 +964,7 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.work__card-link:hover .overlay {
+.work__card-link:hover .work__card-overlay {
   opacity: 1;
   transform: translateY(0);
   transition: 0;
@@ -988,10 +974,8 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.work__card-link:focus,
-.work__card-link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.work__card-link:focus, .work__card-link:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .div-photo {
@@ -1022,14 +1006,14 @@ img {
   color: #212121;
 }
 
-.work__card-list {
+.photo-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.work__card {
+.photo-item {
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
