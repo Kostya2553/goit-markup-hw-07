@@ -66,7 +66,6 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -492,6 +491,10 @@ img {
   padding-bottom: 94px;
 }
 
+.do__ul {
+  display: flex;
+}
+
 .do__container {
   background: #ffffff;
 }
@@ -562,6 +565,7 @@ img {
 
 .team {
   background: #f5f4fa;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -923,8 +927,24 @@ img {
   margin-bottom: 94px;
 }
 
-.work__card-link {
-  display: block;
+.work__card {
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.work__card:focus, .work__card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.work__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 
 .work__card-img {
@@ -968,14 +988,6 @@ img {
   opacity: 1;
   transform: translateY(0);
   transition: 0;
-}
-
-.work__card-link {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.work__card-link:focus, .work__card-link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .div-photo {
