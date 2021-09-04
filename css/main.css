@@ -49,10 +49,46 @@ img {
 }
 
 .container {
-  width: 1200px;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 448px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
 }
 
 .current {
@@ -62,11 +98,19 @@ img {
 .name-page {
   font-family: var(--main-font);
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .name-page {
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
 }
 
 .header-partfolio {
@@ -621,14 +665,12 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
 .klient__ul {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .klient__svg {
